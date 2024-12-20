@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Collapsible Tree Diagram</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    /* Style for the heading */
+    h1 {
+      font-family: sans-serif; /* Match the font with the diagram */
+      font-size: 24px; /* Adjust heading size */
+      font-weight: bold; /* Make it bold */
+      text-align: center; /* Center the heading horizontally */
+      margin-left: -150px; /* Shift the heading slightly to the left */
+      margin-bottom: 20px; /* Add spacing between heading and the diagram */
+    }
+
+    /* Style for the tree container */
+    #tree {
+      display: flex;
+      justify-content: center; /* Center the diagram container */
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Unified Sarcoma Dictionary</h1>
+  <div id="tree"></div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
